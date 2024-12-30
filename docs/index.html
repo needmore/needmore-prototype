@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://use.typekit.net/afe8pec.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="dark:bg-gray-900 text-white">
     <nav
-      class="fixed start-0 top-0 z-20 w-full border-b border-gray-200 bg-white dark:border-gray-600 dark:bg-gray-900"
+      class=" start-0 top-0 z-20 w-full border-b border-gray-200 bg-white dark:border-gray-600 dark:bg-gray-900"
     >
       <div
         class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4"
@@ -98,6 +98,151 @@
         </div>
       </div>
     </nav>
+
+    <div class="container mx-auto py-8">
+      <h1 class="text-5xl w-full mx-auto max-w-3xl text-center leading-snug">
+        We use an anthropological approach to craft meaningful, distinctive identities and digital homes for coffee and direct-to-consumer brands.
+      </h1>
+    </div>
+
+    <div class="max-w-md mx-auto text-center">
+      <!-- Device mockup container (iPhone) -->
+      <div class="relative phone-mockup w-[300px] h-[600px] mx-auto">
+        <!-- Outer phone border (if needed) -->
+        <div class="absolute inset-0 border border-gray-200 rounded-[2rem]"></div>
+  
+        <!-- The "screen" area where you place your content -->
+        <div class="absolute top-[35px] left-0 w-full h-[530px] overflow-hidden rounded-[1.5rem] bg-white">
+          
+          <!-- START: Carousel -->
+          <div
+            id="indicators-carousel"
+            class="relative w-full h-full"
+            data-carousel="static"
+          >
+            <!-- Carousel wrapper -->
+            <div class="relative h-full overflow-hidden rounded-lg">
+              <!-- Item 1 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item
+              >
+                <img
+                  src="https://via.placeholder.com/300x530/ff7f7f/333333?text=Slide+1"
+                  class="absolute block w-full h-full object-cover"
+                  alt="Slide 1"
+                />
+              </div>
+              <!-- Item 2 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item
+              >
+                <img
+                  src="https://via.placeholder.com/300x530/7fff7f/333333?text=Slide+2"
+                  class="absolute block w-full h-full object-cover"
+                  alt="Slide 2"
+                />
+              </div>
+              <!-- Item 3 -->
+              <div
+                class="hidden duration-700 ease-in-out"
+                data-carousel-item
+              >
+                <img
+                  src="https://via.placeholder.com/300x530/7f7fff/333333?text=Slide+3"
+                  class="absolute block w-full h-full object-cover"
+                  alt="Slide 3"
+                />
+              </div>
+            </div>
+  
+            <!-- Slider indicators (dots) -->
+            <div
+              class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2"
+            >
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="true"
+                aria-label="Slide 1"
+                data-carousel-slide-to="0"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 2"
+                data-carousel-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                class="w-3 h-3 rounded-full"
+                aria-current="false"
+                aria-label="Slide 3"
+                data-carousel-slide-to="2"
+              ></button>
+            </div>
+  
+            <!-- Slider controls (left/right arrows) -->
+            <button
+              type="button"
+              class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-prev
+            >
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/30 dark:bg-gray-800/30 group-hover:bg-black/50 dark:group-hover:bg-gray-800/60 focus:ring-4 focus:ring-black/50 focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 19l-7-7 7-7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+            <button
+              type="button"
+              class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              data-carousel-next
+            >
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-black/30 dark:bg-gray-800/30 group-hover:bg-black/50 dark:group-hover:bg-gray-800/60 focus:ring-4 focus:ring-black/50 focus:outline-none"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  ></path>
+                </svg>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+          <!-- END: Carousel -->
+  
+        </div> <!-- End "screen" -->
+      </div>
+    </div>
 
     <footer class="bg-white dark:bg-gray-900">
       <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
