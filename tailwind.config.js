@@ -18,9 +18,12 @@ module.exports = {
       gray: colors.gray,
       blue: colors.blue,
       emerald: colors.emerald,
-      yellow: colors.yellow,
+      red: colors.red,
     },
     extend: {
+      colors: {
+        primary: colors.red,
+      },
       fontFamily: {
         body: ['Futura-PT', 'Helvetica', 'Arial', 'sans-serif'],
         header: ['Wayfinder-CF', 'Georgia', 'serif'],
